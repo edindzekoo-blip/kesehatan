@@ -1,0 +1,74 @@
+/* EXTERNAL CSS */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #222;
+    line-height: 1.7;
+}
+
+/* NAVBAR */
+
+nav {
+    background-color: #168a5b;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #d9f7e8;
+}
+
+/* ARTIKEL */
+
+.artikel {
+    background-color: white;
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+}
+
+.artikel h2 {
+    color: #168a5b;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.artikel h3 {
+    color: #168a5b;
+    margin-top: 25px;
+    margin-bottom: 8px;
+}
+
+.artikel p {
+    margin-bottom: 15px;
+}
+
+.tanggal {
+    color: #777;
+    font-size: 14px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #168a5b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
